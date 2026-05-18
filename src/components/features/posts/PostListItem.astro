@@ -2,9 +2,9 @@
 import { Icon } from "astro-icon/components";
 
 import type { PostForList } from "@/utils/content-utils";
-import { formatDateToYYYYMMDD } from "@/utils/date-utils";
+import { formatDateToYYYYMMDD } from "@/utils/date";
 import { getPostPublicDescription } from "@/utils/post-card-content";
-import { getPostUrlBySlug } from "@/utils/url-utils";
+import { getPostUrlBySlug } from "@/utils/url";
 
 interface Props {
 	post: PostForList;

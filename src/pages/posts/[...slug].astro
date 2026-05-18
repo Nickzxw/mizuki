@@ -15,9 +15,13 @@ import License from "@components/misc/License.astro";
 import Markdown from "@components/misc/Markdown.astro";
 import MainGridLayout from "@layouts/MainGridLayout.astro";
 import { getRelatedPosts, getSortedPosts } from "@utils/content-utils";
-import { hasCustomPermalink, initPostIdMap } from "@utils/permalink-utils";
 import { getPostPublicDescription } from "@utils/post-card-content";
-import { getFileDirFromPath, removeFileExtension } from "@utils/url-utils";
+import {
+	getFileDirFromPath,
+	hasCustomPermalink,
+	initPostIdMap,
+	removeFileExtension,
+} from "@utils/url";
 import { getImage } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 import { render } from "astro:content";
@@ -32,7 +36,7 @@ import {
 import Image from "../../components/atoms/Image/Image.astro";
 import Encryptor from "../../components/features/auth/Encryptor.astro";
 import { profileConfig, siteConfig } from "../../config";
-import { formatDateToYYYYMMDD } from "../../utils/date-utils";
+import { formatDateToYYYYMMDD } from "@/utils/date";
 
 export async function getStaticPaths() {
 	const blogEntries = await getSortedPosts();
