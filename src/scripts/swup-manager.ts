@@ -4,7 +4,7 @@
  */
 
 import { widgetConfigs } from "../config";
-import { initLinkPreloading } from "../utils/navigation-utils";
+import { initLinkPreloading } from "../utils/navigation";
 import { SWUP_SELECTORS } from "./core/swup-config";
 import { SwupHooksManager } from "./core/swup-hooks";
 import { setupSakuraOnDOMReady } from "./effects/sakura-effect";
