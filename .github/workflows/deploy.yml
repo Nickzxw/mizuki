@@ -42,3 +42,4 @@ jobs:
           branch: gh-pages
           folder: dist
           clean: true
+          single-commit: true
