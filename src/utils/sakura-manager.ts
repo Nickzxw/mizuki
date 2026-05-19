@@ -1,4 +1,4 @@
-import type { SakuraConfig } from "../types/config";
+import type { SakuraConfig } from "../types";
 
 // 樱花对象类
 class Sakura {

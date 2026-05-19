@@ -12,8 +12,8 @@ import type {
 	PermalinkConfig,
 	ShareConfig,
 	SiteConfig,
-} from "../types/config";
-import { LinkPreset } from "../types/config";
+} from "../types";
+import { LinkPreset } from "../types";
 
 // Import theme configuration values to merge into siteConfig
 import {

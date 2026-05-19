@@ -1,4 +1,4 @@
-import type { LinkPreset, NavBarLink } from "../../../types/config";
+import type { LinkPreset, NavBarLink } from "../../../types";
 
 export interface NavMenuPanelProps {
 	links: NavBarLink[];

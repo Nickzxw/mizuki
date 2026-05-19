@@ -3,7 +3,7 @@
  * 管理樱花飘落特效的初始化
  */
 
-import type { SakuraConfig } from "../../types/config";
+import type { SakuraConfig } from "../../types";
 import { initSakura } from "../../utils/sakura-manager";
 
 /**

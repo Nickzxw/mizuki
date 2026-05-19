@@ -1,4 +1,4 @@
-import type { Favicon } from "@/types/config.ts";
+import type { Favicon } from "@/types";
 
 export const defaultFavicons: Favicon[] = [
 	{

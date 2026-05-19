@@ -13,7 +13,7 @@ import type {
 	ShareConfig,
 	FullscreenWallpaperConfig,
 	SidebarLayoutConfig,
-} from "../types/config";
+} from "../types";
 
 // Import from other config modules to avoid circular dependency
 import { sidebarLayoutConfig } from "./components";

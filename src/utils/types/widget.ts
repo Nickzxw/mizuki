@@ -3,7 +3,7 @@ import type { MarkdownHeading } from "astro";
 import type {
 	WidgetComponentConfig,
 	WidgetComponentType,
-} from "@/types/config";
+} from "@/types";
 
 /**
  * Widget 组件类型

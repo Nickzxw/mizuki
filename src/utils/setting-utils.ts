@@ -6,7 +6,7 @@ import {
 } from "@constants/constants";
 
 import { siteConfig } from "@/config";
-import type { LIGHT_DARK_MODE, WALLPAPER_MODE } from "@/types/config";
+import type { LIGHT_DARK_MODE, WALLPAPER_MODE } from "@/types";
 
 export function getDefaultHue(): number {
 	const fallback = "250";

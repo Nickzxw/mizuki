@@ -2,7 +2,7 @@
  * 网格布局工具函数
  * 提供 MainGridLayout 使用的服务端布局计算逻辑
  */
-import type { SiteConfig } from "../types/config";
+import type { SiteConfig } from "../types";
 import type { widgetManager } from "./widget-manager";
 
 /**

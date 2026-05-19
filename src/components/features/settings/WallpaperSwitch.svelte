@@ -14,7 +14,7 @@
 	} from "@utils/setting-utils";
 	import { onMount } from "svelte";
 
-	import type { WALLPAPER_MODE } from "@/types/config";
+	import type { WALLPAPER_MODE } from "@/types";
 
 	const wallpaperOptions: {
 		mode: WALLPAPER_MODE;

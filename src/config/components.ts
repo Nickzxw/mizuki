@@ -2,7 +2,7 @@
  * Component Layout Configuration
  * Contains sidebar and component layout settings
  */
-import type { SidebarLayoutConfig, WidgetComponentConfig } from "../types/config";
+import type { SidebarLayoutConfig, WidgetComponentConfig } from "../types";
 
 /**
  * Sidebar Layout Configuration

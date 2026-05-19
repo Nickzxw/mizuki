@@ -15,7 +15,7 @@ export {
 	footerConfig,
 } from "./site";
 
-export type { SiteConfig } from "../types/config";
+export type { SiteConfig } from "../types";
 
 // Theme Configuration - Appearance settings
 export {
@@ -34,7 +34,7 @@ export type {
 	Favicon,
 	PageProgressBarConfig,
 	ThirdPartyAnalyticsConfig,
-} from "../types/config";
+} from "../types";
 
 // Component Configuration - Layout settings
 export { sidebarLayoutConfig } from "./components";
@@ -62,4 +62,4 @@ export type {
 	ShareConfig,
 	FullscreenWallpaperConfig,
 	SidebarLayoutConfig,
-} from "../types/config";
+} from "../types";

@@ -7,7 +7,7 @@ import type {
 	Favicon,
 	PageProgressBarConfig,
 	ThirdPartyAnalyticsConfig,
-} from "../types/config";
+} from "../types";
 
 /**
  * Banner Configuration

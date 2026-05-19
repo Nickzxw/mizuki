@@ -3,7 +3,7 @@ import type {
 	SidebarLayoutConfig,
 	WidgetComponentConfig,
 	WidgetComponentType,
-} from "../types/config";
+} from "../types";
 
 /**
  * 组件映射表 - 将组件类型映射到实际的组件路径

@@ -1,4 +1,4 @@
-import type { WALLPAPER_MODE } from "@/types/config";
+import type { WALLPAPER_MODE } from "@/types";
 
 export type { WALLPAPER_MODE };
 
