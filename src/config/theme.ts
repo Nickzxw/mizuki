@@ -3,9 +3,9 @@
  * Contains theme-related settings including banner, TOC, wallpaper, fonts, and appearance options
  */
 import type {
-	SiteConfig,
 	Favicon,
 	PageProgressBarConfig,
+	SiteConfig,
 	ThirdPartyAnalyticsConfig,
 } from "../types";
 

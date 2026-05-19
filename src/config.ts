@@ -8,55 +8,51 @@
 /* bangumi: { userId: "your-bangumi-id" } */
 
 // Re-export all configurations from the config/ directory for backward compatibility
+export { sidebarLayoutConfig } from "./config/components";
 export {
-	licenseConfig,
-	siteConfig,
+	commentConfig,
+	expressiveCodeConfig,
+	footerConfig,
 	fullscreenWallpaperConfig,
+	licenseConfig,
 	navBarConfig,
 	permalinkConfig,
-	expressiveCodeConfig,
-	commentConfig,
 	shareConfig,
-	footerConfig,
+	siteConfig,
 } from "./config/site";
-
 export {
 	banner,
-	toc,
-	showCoverInContent,
-	generateOgImages,
 	favicon,
 	font,
-	showLastModified,
+	generateOgImages,
 	pageProgressBar,
+	showCoverInContent,
+	showLastModified,
 	thirdPartyAnalytics,
+	toc,
 } from "./config/theme";
-
-export { sidebarLayoutConfig } from "./config/components";
-
 export {
-	profileConfig,
 	announcementConfig,
 	musicPlayerConfig,
-	sakuraConfig,
 	pioConfig,
-	relatedPostsConfig,
+	profileConfig,
 	randomPostsConfig,
+	relatedPostsConfig,
+	sakuraConfig,
 	widgetConfigs,
 } from "./config/widgets";
-
 export type {
-	Favicon,
-	PageProgressBarConfig,
-	ThirdPartyAnalyticsConfig,
 	AnnouncementConfig,
+	Favicon,
+	FullscreenWallpaperConfig,
 	MusicPlayerConfig,
+	PageProgressBarConfig,
 	PioConfig,
 	ProfileConfig,
 	RandomPostsConfig,
 	RelatedPostsConfig,
 	SakuraConfig,
 	ShareConfig,
-	FullscreenWallpaperConfig,
 	SidebarLayoutConfig,
+	ThirdPartyAnalyticsConfig,
 } from "./types";

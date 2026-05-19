@@ -34,9 +34,9 @@ import CryptoJS from "crypto-js";
 import { licenseConfig } from "src/config";
 
 import { permalinkConfig } from "@/config";
+import { formatDateToYYYYMMDD } from "@/utils/date";
 
 import { profileConfig, siteConfig } from "../config";
-import { formatDateToYYYYMMDD } from "@/utils/date";
 
 export async function getStaticPaths() {
 	const blogEntries = await getSortedPosts();

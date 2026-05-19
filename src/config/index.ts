@@ -4,55 +4,43 @@
  */
 
 // Site Configuration - Core site settings
+export type { SiteConfig } from "../types";
 export {
-	siteConfig,
+	commentConfig,
+	expressiveCodeConfig,
+	footerConfig,
 	fullscreenWallpaperConfig,
 	navBarConfig,
 	permalinkConfig,
-	expressiveCodeConfig,
-	commentConfig,
 	shareConfig,
-	footerConfig,
+	siteConfig,
 } from "./site";
 
-export type { SiteConfig } from "../types";
-
 // Theme Configuration - Appearance settings
-export {
-	banner,
-	toc,
-	showCoverInContent,
-	generateOgImages,
-	favicon,
-	font,
-	showLastModified,
-	pageProgressBar,
-	thirdPartyAnalytics,
-} from "./theme";
-
 export type {
 	Favicon,
 	PageProgressBarConfig,
 	ThirdPartyAnalyticsConfig,
 } from "../types";
+export {
+	banner,
+	favicon,
+	font,
+	generateOgImages,
+	pageProgressBar,
+	showCoverInContent,
+	showLastModified,
+	thirdPartyAnalytics,
+	toc,
+} from "./theme";
 
 // Component Configuration - Layout settings
 export { sidebarLayoutConfig } from "./components";
 
 // Widget Configuration - Interactive widgets
-export {
-	profileConfig,
-	announcementConfig,
-	musicPlayerConfig,
-	sakuraConfig,
-	pioConfig,
-	relatedPostsConfig,
-	randomPostsConfig,
-	widgetConfigs,
-} from "./widgets";
-
 export type {
 	AnnouncementConfig,
+	FullscreenWallpaperConfig,
 	MusicPlayerConfig,
 	PioConfig,
 	ProfileConfig,
@@ -60,6 +48,15 @@ export type {
 	RelatedPostsConfig,
 	SakuraConfig,
 	ShareConfig,
-	FullscreenWallpaperConfig,
 	SidebarLayoutConfig,
 } from "../types";
+export {
+	announcementConfig,
+	musicPlayerConfig,
+	pioConfig,
+	profileConfig,
+	randomPostsConfig,
+	relatedPostsConfig,
+	sakuraConfig,
+	widgetConfigs,
+} from "./widgets";

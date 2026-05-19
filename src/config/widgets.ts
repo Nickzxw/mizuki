@@ -4,6 +4,7 @@
  */
 import type {
 	AnnouncementConfig,
+	FullscreenWallpaperConfig,
 	MusicPlayerConfig,
 	PioConfig,
 	ProfileConfig,
@@ -11,10 +12,8 @@ import type {
 	RelatedPostsConfig,
 	SakuraConfig,
 	ShareConfig,
-	FullscreenWallpaperConfig,
 	SidebarLayoutConfig,
 } from "../types";
-
 // Import from other config modules to avoid circular dependency
 import { sidebarLayoutConfig } from "./components";
 import { fullscreenWallpaperConfig, shareConfig } from "./site";

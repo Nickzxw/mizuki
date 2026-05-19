@@ -14,18 +14,17 @@ import type {
 	SiteConfig,
 } from "../types";
 import { LinkPreset } from "../types";
-
 // Import theme configuration values to merge into siteConfig
 import {
 	banner,
-	toc,
-	showCoverInContent,
-	generateOgImages,
 	favicon,
 	font,
-	showLastModified,
+	generateOgImages,
 	pageProgressBar,
+	showCoverInContent,
+	showLastModified,
 	thirdPartyAnalytics,
+	toc,
 } from "./theme";
 
 // Define site language

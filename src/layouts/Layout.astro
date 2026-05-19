@@ -1,16 +1,15 @@
 ---
+import { PageProgressBar } from "@components/control/PageProgressBar";
+import Pio from "@components/features/pio/Pio.svelte"; // 使用 Svelte 版本的 Pio 组件
 import ConfigCarrier from "@components/misc/ConfigCarrier.astro";
 import MusicPlayer from "@components/widgets/music-player/MusicPlayer.svelte";
-import Pio from "@components/features/pio/Pio.svelte"; // 使用 Svelte 版本的 Pio 组件
-import { PageProgressBar } from "@components/control/PageProgressBar";
+
 import { pioConfig, profileConfig, siteConfig } from "@/config";
 
 const BANNER_HEIGHT = 35;
 const BANNER_HEIGHT_EXTEND = 30;
 const BANNER_HEIGHT_HOME = BANNER_HEIGHT + BANNER_HEIGHT_EXTEND;
 
-import { PAGE_WIDTH } from "../constants/constants";
-import { pathsEqual, url } from "../utils/url-utils";
 import "../styles/main.css";
 import "../styles/mobile-navbar.css";
 import "../styles/wallpaper-navbar-transparent.css";
@@ -18,6 +17,8 @@ import "../styles/fancybox-custom.css";
 import "../styles/expressive-code.css";
 import "../styles/panel-animations.css";
 
+import { PAGE_WIDTH } from "../constants/constants";
+import { pathsEqual, url } from "../utils/url-utils";
 // 导入新提取的 Head 组件
 import AnalyticsScripts from "./partials/AnalyticsScripts.astro";
 import HeadTags from "./partials/HeadTags.astro";

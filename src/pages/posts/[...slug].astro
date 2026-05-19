@@ -33,10 +33,11 @@ import {
 	shareConfig,
 } from "src/config";
 
+import { formatDateToYYYYMMDD } from "@/utils/date";
+
 import Image from "../../components/atoms/Image/Image.astro";
 import Encryptor from "../../components/features/auth/Encryptor.astro";
 import { profileConfig, siteConfig } from "../../config";
-import { formatDateToYYYYMMDD } from "@/utils/date";
 
 export async function getStaticPaths() {
 	const blogEntries = await getSortedPosts();
