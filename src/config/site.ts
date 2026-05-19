@@ -37,7 +37,7 @@ const SITE_LANG = "en";
 export const siteConfig: SiteConfig = {
 	title: "Mizuki",
 	subtitle: "One demo website",
-	siteURL: "https://mizuki.mysqil.com/", // Please replace with your site URL, ending with a slash
+	siteURL: "https://Nickzxw.github.io/", // Please replace with your site URL, ending with a slash
 	siteStartDate: "2025-01-01", // Site start date for calculating uptime
 
 	lang: SITE_LANG,
