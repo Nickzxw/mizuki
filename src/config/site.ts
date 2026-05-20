@@ -35,8 +35,8 @@ const SITE_LANG = "en";
  * Core site settings including title, URL, language, theme color, and feature flags
  */
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
-	subtitle: "One demo website",
+	title: "Nick",
+	subtitle: "Nick's blog",
 	siteURL: "https://Nickzxw.github.io/", // Please replace with your site URL, ending with a slash
 	siteStartDate: "2025-01-01", // Site start date for calculating uptime
 
