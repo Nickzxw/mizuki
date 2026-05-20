@@ -59,13 +59,8 @@ export const siteConfig: SiteConfig = {
 		devices: true, // Devices page switch
 	},
 
-	// Navbar title configuration
-	navbarTitle: {
-		mode: "text-icon", // Display mode: "text-icon" shows icon+text, "logo" shows only logo
-		text: "MizukiUI", // Navbar title text
-		icon: "assets/home/home.webp", // Navbar icon path, defaults to public/assets/home/home.webp
-		logo: "assets/home/default-logo.webp", // Website logo path
-	},
+	// Navbar title configuration - set to null to hide
+	navbarTitle: null,
 
 	// Page auto-scaling configuration
 	pageScaling: {

@@ -51,13 +51,13 @@ export interface SiteConfig {
 		};
 	};
 
-	// 顶栏标题配置
+	// 顶栏标题配置，设置为 null 可隐藏
 	navbarTitle?: {
 		mode?: "text-icon" | "logo"; // 显示模式："text-icon" 显示图标+文本，"logo" 仅显示Logo
 		text: string; // 顶栏标题文本
 		icon?: string; // 顶栏标题图标路径
 		logo?: string; // 网站Logo图片路径
-	};
+	} | null;
 
 	// 页面自动缩放配置
 	pageScaling?: {
